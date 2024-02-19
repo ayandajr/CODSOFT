@@ -1,0 +1,445 @@
+/*********************************************************TAG SECTION*******************************************************************/
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/*********************************************************CLASS SECTION*****************************************************************/
+/*-------TITLE------*/
+.title-company-logo
+{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 2px;
+    letter-spacing: 30px;
+}
+.title-company-bot-logo
+{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 100px;
+    letter-spacing: 5px;
+    margin-top: 145px;
+}
+.title-company-bot-logo-caption
+{
+    color: #ffffff;
+    font-size: 17.5px;
+    font-weight: 50px;
+    line-height: 2;
+    margin-top: 50px;
+}
+.nav-link
+{
+    color: #73757a;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-top: 5px;
+}
+.nav-link:hover
+{
+    color: #ffffff;
+}
+.intro-who-we-are-btn
+{
+    margin-top: 100px;
+}
+.intro-who-we-are-btn:hover
+{
+    color: black;
+    transition: 1s;
+}
+.details-hr
+{
+    border-style: dotted;
+    border-width: 15px;
+    border-top: none;
+    margin-left: 45.60%;
+    margin-top: 0;
+    max-width: 9%;
+    min-width: 9%;
+}
+.section-one-h1
+{
+    padding-top: 50px;
+}
+.section-one-h1-pos-head
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #9BA4B5;
+}
+.executive-section
+{
+    margin-bottom: 100px;
+    margin-right: 215px;
+}
+.organisation-image
+{
+    width: 300px;
+    height: 300px;
+}
+.card-row-one
+{
+    margin-left: 230px;
+    width: 300px;
+}
+.managerial-section
+{
+    margin-bottom: 100px;
+}
+.card-body
+{
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 16px;
+}
+.card-row-two
+{
+    width: 300px
+}
+.card-row-two-odd
+{
+    margin-left: 280px;
+}
+.card-row-two-even
+{
+    margin-left: 70px;
+}
+.card-section-three
+{
+    width: 540px;
+}
+.organisation-image-last
+{
+    width:300px;
+}
+.whole-card
+{
+    width: 450px;
+}
+.card-title
+{
+    margin-top: 50px
+}
+.card-section-three
+{
+    width: 288px;
+    margin-left: 40%;
+}
+.section-one-h1-pos-head-last
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.products-btn
+{
+    margin-top: 175px;
+    transition: 1s;
+}
+/*--------------Contact----------------*/
+.contact
+{
+    padding-top: 50px;
+    background: linear-gradient(#ffffff,#ffffff);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000;
+}
+/* The line of code: '.contact .row' says this: In the "contact" class theres is another class called "row" */
+.contact .row
+{
+    padding: 30px 0;
+    font-size: 22px;
+}
+/* The line of code: '.contact .col-md-4 .fa' says this: In the "contact" class theres is another class called "col-md-4" there is another class called "fa" */
+.contact .col-md-4 .fa
+{
+    padding: 10px;
+    font-size: 40px;
+}
+/* The line of code: '.contact .btn' says this: In the "contact" class theres is another class called "btn" */
+.contact .btn
+{
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+}
+/* The line of code: '.contact .btn:focus' says this: In the "contact" class theres is another class called "btn" and I have set a focus */
+.contact .btn:focus
+{
+    box-shadow: none !important;
+}
+/* The line of code: '.contact .btn:focus' says this: In the "contact" class theres is another class called "btn" and I have set a hover state */
+.contact .btn:hover
+{
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    transition: 0.6s;
+}
+/* The line of code: '.contact .btn' says this: In the "contact" class theres is another class called "btn" and within that class there is another class called "fa" */
+.contact .btn .fa
+{
+    margin-right: 10px;
+}
+.footer
+{
+    background: #ffffff;
+    height: 100px;
+    margin-top: 50px;
+    color: #000;
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+.fa-heart-o
+{
+    color: red;
+}
+.footer-text
+{
+    font-size: small;
+}
+.footer-quote
+{
+    padding-top: 10px;
+    letter-spacing: 3px;
+}
+.contact-person-one
+{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.profile-icon
+{
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+.Watermark
+{
+    letter-spacing: 4px;
+}
+/*********************************************************ID SECTION********************************************************************/
+#title
+{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(LAMA\ IMAGE\ BANNER2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+#section-one
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+/*********************************************************MEDIA QUERIES****************************************************************/
+@media (max-width: 1028px)
+{
+    body 
+    {
+        margin: 0;
+        padding: 0;
+    }
+    #title
+    {
+        text-align: center;
+        margin-left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .title-company-logo
+    {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 20px;
+        letter-spacing: 7px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .title-company-bot-logo
+    {
+        line-height: 1.5;
+        margin-top: 80px;
+        margin-left: 5px;
+    }
+    .title-company-bot-logo-caption
+    {
+        color: #ffffff;
+        font-size: 12px;
+        letter-spacing: 0px;
+        margin-left: 2%;
+    }
+    .intro-who-we-are-btn
+    {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .nav-link
+    {
+        color: #73757a;
+        padding-top: 30px;
+        font-size: small;
+    }
+    .nav-link:hover
+    {
+        color: #ffffff;
+    }
+    .carousel-caption h5
+    {
+        font-size: small;
+    }
+    .carousel-indicator
+    {
+        width: 3px;
+    }
+    .details-hr
+    {
+        border-width: 6px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .section-one-h1-pos-head
+    {
+        padding-top: 75px;
+        padding-bottom: 75px;
+        color: #9BA4B5;
+    }
+    .section-one-h1-pos-head-last
+    {
+        padding-top: 75px;
+        padding-bottom: 75px;
+        color: #9BA4B5;
+    }
+    /* .executive-section
+    {
+        margin-right: 0px;
+    } */
+    .organisation-image
+    {
+        width: 300px;
+        height: 300px;
+    }
+    .card-row-one
+    {
+        width: 300px;
+        margin-left: 31px;
+        margin-right: 5px;
+    }
+    .card-row-two
+    {
+        width: 300px;
+    }
+    .card-row-two-odd
+    {
+        margin-left: 31px;
+        margin-right: 5px;
+    }
+    .card-row-two-even
+    {
+        margin-left: 31px;
+        margin-right: 5px;
+    }
+    .card-section-three
+    {
+        margin-left: 37px;
+        margin-right: 5px;
+    }
+    .footer-quote
+    {
+        padding-left: 10px;
+    }
+    .footer
+    {
+        padding-left: 2%;
+    }
+}
+@media (max-width: 390px)
+{
+    .card-row-one
+    {
+        margin-left: 25px !important;
+    }
+    .card-row-two
+    {
+        margin-left: 25px !important;
+    }
+}
+@media (max-width: 360px)
+{
+    .card-row-one
+    {
+        margin-left: 16px !important;
+    }
+    .card-row-two
+    {
+        margin-left: 16px !important;
+    }
+    .card-section-three
+    {
+        margin-left: 21px !important;
+    }
+}
+@media (max-width: 320px)
+{
+    .title-company-bot-logo
+    {
+        font-size: 160% !important;
+        margin-top: 40px !important;
+        line-height: 1.5 !important;
+        margin-left: 5px !important;
+    }
+    .title-company-bot-logo-caption
+    {
+        font-size: 8px !important;
+    }
+    .organisation-image
+    {
+        width: 300px !important;
+        height: 300px !important;
+    }
+    .card-row-one
+    {
+        width: 300px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .card-row-two
+    {
+        width: 300px !important;
+    }
+    .card-row-two-odd
+    {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .card-row-two-even
+    {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .Executive
+    {
+        padding-left: 6px;
+    }
+    .Managerial
+    {
+        padding-left: 6px;
+    }
+    .card-section-three
+    {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
